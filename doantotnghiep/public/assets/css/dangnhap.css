@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Saira';
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.wrap-main,
+.wrap-content {
+    max-width: 1210px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
+
+.flex {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.dangnhap {margin: 150px 0 0 0;}
+.button-dang-nhap {text-align: center;}
+.dang-nhap {width: 380px;box-shadow: 0 0 10px 2px #ededed;padding: 0 10px;}
+
+.justify-content-between {
+    justify-content: space-between !important;
+}
+
+.justify-content-center {
+    justify-content: center !important;
+}
+
+/* mang xã hội */
+.mangxahoi {
+    align-items: center;
+text-align: center;font-size: 36px;color: #FEA0C6;}
+
+.mangxahoi>div {
+    margin: 0 20px 0 0;
+}
+
+.mangxahoi>a {
+    margin: 0 5px;
+}
+
+.line-dang-nhap {
+    display: inline-block;
+    position: relative;
+}
+
+input#taikhoan {
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px 15px;
+    border: 1px solid #bcbcbc;
+width: 100%;border-radius: 15px;}
+
+.button-login {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 8px 50px;
+    font-size: 14px;
+margin: 10px 0;background: #FEA0C6;border: none;}
+
+.form-check-label {
+    font-weight: normal;
+    margin: 0;
+}
+
+.hinh {width: 513px;}
+
+.hinhanh {width: 100%}
+.bottom-dangnhap {text-align: center;}
+.bottom-dangnhap a {margin: 0 0px 0 10px;}
+
+@media (max-width: 991px) {
+    .hinh {width: 100%; text-align: center; }
+    .dang-nhap {width: 100%; box-shadow: 0 0 10px 2px #ededed; padding: 0 10px;text-align: center; margin: 20px 0 0 0; }
+}

@@ -1,0 +1,20 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+<<<<<<< HEAD:mangxahoicaothang/.gitignore
+# /vendor
+/.idea
+/.vagrant
+=======
+/vendor
+.env
+.env.backup
+.phpunit.result.cache
+>>>>>>> Kiet:doantotnghiep/.gitignore
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+/.idea
+/.vscode
